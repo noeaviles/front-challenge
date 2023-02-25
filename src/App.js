@@ -78,8 +78,8 @@ const App = () => {
   return (
     <main style={{ height : "100vh", width: "100vw" }} className="main">
       <div className="buttons">
-        <button onClick={addMoveable} className="button">Add</button>
-        {buttonDelete ? <button onClick={deleteMoveable} className="button">Delete</button> : ""} 
+        <button onClick={addMoveable} className="button button-add">Add</button>
+        {buttonDelete ? <button onClick={deleteMoveable} className="button button-delete">Delete</button> : ""} 
       </div>
       
       <div

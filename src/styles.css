@@ -34,6 +34,12 @@
   padding: 1rem;
   border-radius: 0.5rem;
 }
+.button-add {
+  background-color: #0e99f5;
+}
+.button-delete {
+  background-color: #fa0303;
+}
 
 .draggable { 
   background-repeat: no-repeat;
